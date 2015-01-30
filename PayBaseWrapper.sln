@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayBaseWrapper", "PayBaseWrapper\PayBaseWrapper.csproj", "{71CE0177-03E0-4EEA-945C-A993E33B2F60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestPaybase", "TestPaybase", "{08CA338D-819B-425E-8532-0DEA08E4D20E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TestPaybase.Shared", "TestPaybase\TestPaybase.Shared\TestPaybase.Shared.shproj", "{5A7A7DAB-6E10-4A65-82F0-35DC959AE9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPaybase.Windows", "TestPaybase\TestPaybase.Windows\TestPaybase.Windows.csproj", "{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TestPaybase\TestPaybase.Shared\TestPaybase.Shared.projitems*{9f9c0ca2-23af-40a1-9d6b-591c03f8706b}*SharedItemsImports = 4
+		TestPaybase\TestPaybase.Shared\TestPaybase.Shared.projitems*{5a7a7dab-6e10-4a65-82f0-35dc959ae9e3}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ecliptic.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PayBaseWrapper\\PayBaseWrapper.csproj
+		SccProjectName1 = PayBaseWrapper
+		SccLocalPath1 = PayBaseWrapper
+		SccProjectUniqueName2 = TestPaybase\\TestPaybase.Shared\\TestPaybase.Shared.projitems
+		SccProjectTopLevelParentUniqueName2 = PayBaseWrapper.sln
+		SccProjectName2 = TestPaybase/TestPaybase.Shared
+		SccLocalPath2 = TestPaybase\\TestPaybase.Shared
+		SccProjectUniqueName3 = TestPaybase\\TestPaybase.Shared\\TestPaybase.Shared.shproj
+		SccProjectTopLevelParentUniqueName3 = PayBaseWrapper.sln
+		SccProjectName3 = TestPaybase/TestPaybase.Shared
+		SccLocalPath3 = TestPaybase\\TestPaybase.Shared
+		SccProjectUniqueName4 = TestPaybase\\TestPaybase.Windows\\TestPaybase.Windows.csproj
+		SccProjectTopLevelParentUniqueName4 = PayBaseWrapper.sln
+		SccProjectName4 = TestPaybase/TestPaybase.Windows
+		SccLocalPath4 = TestPaybase\\TestPaybase.Windows
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Release|ARM.ActiveCfg = Release|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Release|x64.ActiveCfg = Release|Any CPU
+		{71CE0177-03E0-4EEA-945C-A993E33B2F60}.Release|x86.ActiveCfg = Release|Any CPU
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|ARM.Build.0 = Debug|ARM
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|x64.ActiveCfg = Debug|x64
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|x64.Build.0 = Debug|x64
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|x64.Deploy.0 = Debug|x64
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|x86.ActiveCfg = Debug|x86
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|x86.Build.0 = Debug|x86
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Debug|x86.Deploy.0 = Debug|x86
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|ARM.ActiveCfg = Release|ARM
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|ARM.Build.0 = Release|ARM
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|ARM.Deploy.0 = Release|ARM
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|x64.ActiveCfg = Release|x64
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|x64.Build.0 = Release|x64
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|x64.Deploy.0 = Release|x64
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|x86.ActiveCfg = Release|x86
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|x86.Build.0 = Release|x86
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A7A7DAB-6E10-4A65-82F0-35DC959AE9E3} = {08CA338D-819B-425E-8532-0DEA08E4D20E}
+		{9F9C0CA2-23AF-40A1-9D6B-591C03F8706B} = {08CA338D-819B-425E-8532-0DEA08E4D20E}
+	EndGlobalSection
+EndGlobal
