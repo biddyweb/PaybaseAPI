@@ -5,6 +5,8 @@ Simple .NET API for GAW Miner's PayBase
 
 ##Properties
 
+Name|Description
+--------|----------------------------------------------------------------------------------------------
 Apikey|Sets/Gets the user's API KEY generated within Paybase. Required for all API calls presently.<br>
 ApiURI|Sets/Gets the API URI for production or test. Defaults to production API if not specified.<br>
 
@@ -22,9 +24,11 @@ ApiURI|Sets/Gets the API URI for production or test. Defaults to production API 
    // do some work
 ```
 ##Methods
-   getCurrentUser||Returns unformatted JSON (string) containing user info.<br>
-   getCurrentUserProfile||Returns unformatted JSON (string) containing user profile info.<br>
-   getBuysAndSells||Returns unformatted JSON (string) containing recent market buy and sell orders.<br>
+Name|Description
+-----------------|----------------------------------------------------------------------------------------------
+getCurrentUser|Returns unformatted JSON (string) containing user info.<br>
+getCurrentUserProfile|Returns unformatted JSON (string) containing user profile info.<br>
+getBuysAndSells|Returns unformatted JSON (string) containing recent market buy and sell orders.<br>
 
 ###Example:
 ```
