@@ -12,8 +12,8 @@ ApiURI  Sets/Gets the API URI for production or test. Defaults to production API
    
    var paybase = new PayBaseWrapper.PayBase();
 
-   paybase.Apikey = apikey;
-   paybase.ApiURI = apiuri;
+   paybase.Apikey = apikey; 
+   paybase.ApiURI = apiuri; 
 
 ##Methods
    getCurrentUser         Returns unformatted JSON (string) containing user info.
@@ -22,15 +22,15 @@ ApiURI  Sets/Gets the API URI for production or test. Defaults to production API
 
 ###Example:
 
-  var result = "";
-  var paybase = new PayBaseWrapper.PayBase();
+  var result = ""; 
+  var paybase = new PayBaseWrapper.PayBase(); 
 
-  paybase.Apikey = "YOUR COMPLEX API KEY";
+  paybase.Apikey = "YOUR COMPLEX API KEY"; 
 
-  result = paybase.getCurrentUser();
+  result = paybase.getCurrentUser(); 
 
-  result = paybase.getCurrentUserProfile();
+  result = paybase.getCurrentUserProfile(); 
 
-  result = paybase.getBuysAndSells();
+  result = paybase.getBuysAndSells(); 
 
-  paybase = null;
+  paybase = null; 
