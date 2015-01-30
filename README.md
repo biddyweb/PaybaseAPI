@@ -3,6 +3,9 @@
 Simple .NET API for GAW Miner's PayBase
 (Include three simple methods to interrogate the Paybase API using a supplied API KEY.
 
+This is a C# project written for Visual Studio 2013 Express. It contains a test application using XAML for portable apps
+as in Windows 8.1 and Windows Phone 8.
+
 ##Properties
 
 Name|Description
